@@ -920,7 +920,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -200px;
+    margin-top: -100px;
   }
   .trending-games-left__title > h1 {
     font-size: 18px;
@@ -955,8 +955,13 @@ hr {
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
-    margin-left: -250px;
-    margin-top: 1100px;
+    position: relative;
+    right: 210px;
+    top: 150px;
+  }
+  .trending-games__left {
+    position: relative;
+    left: 35px;
   }
   .trending-games-right-btn {
     position: relative;
