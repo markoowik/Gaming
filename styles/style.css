@@ -805,8 +805,8 @@ hr {
   .header-menu {
     position: fixed;
     top: -20%;
-    left: 0;
-    width: 100%;
+    left: 20px;
+    width: 90%;
     height: 15%;
     color: white;
     background-color: #1c140f;
@@ -824,7 +824,8 @@ hr {
   .header-menu__list li {
     margin: 0 0 70px 0;
     position: relative;
-    right: 340px;
+    z-index: 2;
+    right: 310px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -869,6 +870,7 @@ hr {
   }
   .welcome-left__title > h1 {
     font-size: 25px;
+    width: 250px;
   }
   .welcome-left__inner {
     display: flex;
@@ -878,7 +880,7 @@ hr {
     margin-top: -30px;
   }
   .welcome-left__inner > p {
-    width: 218px;
+    width: 300px;
   }
   .welcome-left__btn {
     display: flex;
@@ -956,16 +958,68 @@ hr {
     flex-direction: column;
     justify-content: center; */
     position: relative;
-    right: 210px;
+    right: 199px;
     top: 150px;
   }
   .trending-games__left {
     position: relative;
-    left: 35px;
+    left: 49px;
   }
   .trending-games-right-btn {
     position: relative;
     top: 650px;
     left: -10px;
+  }
+  .games-left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    margin-top: 300px;
+  }
+  .games-left-text > h1 {
+    font-size: 18px;
+  }
+  .games-left__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin-top: -90px;
+  }
+  .games-left__title > h1 {
+    font-size: 30px;
+  }
+  .games-left__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+  }
+  .games-left__inner > p {
+    text-align: center;
+    width: 300px;
+  }
+  .games-right > img {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 810px;
+    top: 110px;
+  }
+  .games-right::before {
+    content: url("../icons/background.svg");
+    position: relative;
+    left: 850px;
+    top: 90px;
+    display: flex;
+    width: 196px;
+    height: 154px;
+    z-index: -1;
+    display: none;
   }
 }
