@@ -1126,4 +1126,71 @@ hr {
     right: 765px;
     top: 90px;
   }
+  .footer {
+    width: 400px;
+    height: 600px;
+  }
+  .footer-left-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    margin-top: -250px;
+  }
+  .footer-left-logo > span {
+    font-size: 18px;
+  }
+  .footer-left__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -100px;
+    margin-top: 50px;
+  }
+  .footer-left__inner > p {
+    font-size: 18px;
+    width: 300px;
+  }
+  .footer-left__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 130px;
+  }
+  hr {
+    position: relative;
+    top: -10px;
+    width: 955px;
+  }
+  .footer-link-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: -570px;
+    top: 50px;
+  }
+  .footer-link-right {
+    position: relative;
+    left: -520px;
+    top: 125px;
+  }
+  .footer-link-right__inner {
+    margin-left: -50px;
+  }
+  .footer-link-right__inner > p {
+    width: 200px;
+    text-align: center;
+  }
+  .footer-link-right-number {
+    margin-top: 10px;
+  }
+  .copyright {
+    margin-top: -60px;
+  }
+  .footer-right-icon {
+    position: relative;
+    left: -550px;
+    top: 35px;
+  }
 }
