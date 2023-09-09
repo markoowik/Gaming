@@ -824,7 +824,7 @@ hr {
   .header-menu__list li {
     margin: 0 0 70px 0;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     right: 310px;
     display: flex;
     flex-direction: column;
