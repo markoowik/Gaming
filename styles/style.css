@@ -756,6 +756,7 @@ hr {
   .header-burger {
     display: block;
     position: relative;
+    left: 150px;
     z-index: 3;
     width: 30px;
     height: 20px;
@@ -784,7 +785,7 @@ hr {
   }
   .header-burger span {
     position: absolute;
-    left: 300px;
+    left: 0px;
     top: 10px;
     background-color: #fff;
     width: 100%;
@@ -1021,5 +1022,108 @@ hr {
     height: 154px;
     z-index: -1;
     display: none;
+  }
+  .recent-projects {
+    margin-top: -100px;
+  }
+  .recent-projects-left__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .recent-projects-left__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 70px;
+  }
+  .recent-projects-left__title > h1 {
+    font-size: 20px;
+  }
+  .recent-projects-left__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 310px;
+  }
+  .recent-projects-left__inner > p {
+    font-size: 18px;
+    width: 350px;
+  }
+  .recent-projects-left__card-img > img {
+    width: 280px;
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  .recent-projects-right {
+    position: relative;
+    right: 320px;
+    display: flex;
+    margin-top: 650px;
+  }
+  .news {
+    margin-top: 800px;
+  }
+  .news-left__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+  .news-left__title > h1 {
+    font-size: 20px;
+  }
+  .news-left__inner > p {
+    text-align: center;
+  }
+  .news-right__card {
+    width: 350px;
+    height: 300px;
+  }
+  .news-right-card__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  .news-right-card__title > h1 {
+    font-size: 20px;
+  }
+  .news-right-card__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  .news-right-card__inner > p {
+    font-size: 18px;
+    width: 290px;
+    text-align: center;
+  }
+  .news-right-card__input {
+    position: relative;
+    right: 680px;
+    top: 90px;
+  }
+  .news-right-card__input > input {
+    width: 300px;
+  }
+  ::placeholder {
+    color: #898989;
+    position: relative;
+    left: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .news-right-card-input__btn {
+    position: relative;
+    right: 765px;
+    top: 90px;
   }
 }
